@@ -24,7 +24,7 @@ class CardGame:
       return False
    
 
-  dif highest_card(self, card1 card2): # dif -> def
+  dif highest_card(self, card1 card2): # dif -> def; missing "," after card1
   if card1.value > card2.value: # indentation missing
     return card # card1
   else:
@@ -32,10 +32,10 @@ class CardGame:
   
 
 
-def cards_total(self, cards):
-  total   # should be 'total = *'
+def cards_total(self, cards): # indentation wrong for all this block
+  total   # should be 'total = 0'
   for card in cards:
     total += card.value
-    return "You have a total of" + total # f"You have a total of {total}"
+    return "You have a total of" + total # f"You have a total of {total}"; return should be outside for loop
   
 ``` # <- ???
